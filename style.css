@@ -1,0 +1,21 @@
+/* selectteur { 
+    propriété : valeur;
+}
+*/
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: PicNic;
+    text-align: center;
+
+}
+
+h1,h2{
+    color:rgb(252, 217, 217)
+}
+
+.wrap{
+    background: rgb(232, 245, 233);
+    width: 640px;
+    margin:auto;
+}
