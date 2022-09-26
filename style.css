@@ -1,21 +1,77 @@
-/* selectteur { 
-    propriété : valeur;
-}
-*/
-
 body{
-    background: rgb(255, 255, 255);
-    font-family: PicNic;
-    text-align: center;
-
+    margin:30px;  
+    background: rgb(234, 235, 234);
+    font-family: Compagnon Roman ;
 }
 
-h1,h2{
-    color:rgb(252, 217, 217)
-}
+/*About titre image*/
+.about {
+    color: black;
+    font-family: Manifont Grotesk ;
+    position: fixed;
+    bottom:15px;
+    right:23px;
+    width:50%; 
+    text-align: right;
+    }
 
-.wrap{
-    background: rgb(232, 245, 233);
-    width: 640px;
-    margin:auto;
-}
+    a.img-text {
+        text-decoration: underline;
+        color: black;
+        }
+
+    .manImg { 
+        display: none; 
+        width: 200px;
+        }
+        
+        .about:hover .manImg { 
+        display: block; 
+        margin-left: auto;
+        }
+    
+
+/*risotto titre index*/
+.risotto{
+    position: fixed;
+    top:20px;               
+    left:20px;      
+    display: none;    
+    } 
+    
+    .emmaImg{
+    display: none;
+    }
+    
+    .risotto:hover .emmaImg { 
+    display: block; 
+    position: fixed;
+    right:13px;    
+    object-fit: contain;
+    }
+    
+    .emmaImg3{
+    display: none;
+    }
+    
+    .risotto:hover .emmaImg3 { 
+    display: block; 
+    position: fixed;
+    right:163px;    
+    bottom:53px;    
+    object-fit: contain;
+    }
+    
+    .emmaImg2{
+    display: none;
+    }
+    
+    .risotto:hover .emmaImg2 { 
+    display: block; 
+    position: fixed;
+    right:603px;    
+    top:333px;  
+    object-fit: contain;
+    }
+
+    
