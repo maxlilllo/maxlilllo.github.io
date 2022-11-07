@@ -1,0 +1,670 @@
+html {
+font-family: 'Montserrat', sans-serif; 
+}
+
+
+body {
+margin:20px;  
+background-color: white;
+background: rgb(234, 235, 234);
+line-height: 0px;
+}
+
+
+
+#menu { 
+font-size: 33px;     
+line-height: 30px;       
+position:fixed;         
+top:20px;             
+left:20px;              
+width:30%;
+padding-top: auto;
+padding-bottom: auto;
+}
+
+.back {
+font-size: 33px;     
+line-height: 30px;
+font-family: "Cirka_light";
+position: fixed;
+left:23px; 
+width:24%; 
+bottom: 20px;
+text-align: left;
+color: black;
+text-decoration: none;
+}
+
+/*About titre image*/
+.about {
+line-height: 30px; 	
+font-size: 17px;
+position: fixed;
+bottom:15px;
+right:23px;
+width:50%; 
+text-align: right;
+}
+
+/*
+.manImg { 
+display: none; 
+width: 200px;
+}
+
+.about:hover .manImg { 
+display: block; 
+margin-left: auto;
+}
+*/
+
+
+
+/*RISOTTO titre index*/
+.risotto{
+position: fixed;
+top:20px;               
+left:20px;      
+display: none;    
+} 
+
+.risoImg{
+display: none;
+}
+
+.risotto:hover .risoImg { 
+display: block; 
+position: fixed;
+right:13px;    
+object-fit: contain;
+}
+
+.risoImg3{
+display: none;
+}
+
+.risotto:hover .risoImg3 { 
+display: block; 
+position: fixed;
+right:163px;    
+bottom:53px;    
+object-fit: contain;
+}
+
+.risoImg2{
+display: none;
+}
+
+.risotto:hover .risoImg2 { 
+display: block; 
+position: fixed;
+right:203px;    
+top:133px;  
+object-fit: contain;
+}
+
+
+
+/*CONCERTS titre index*/
+.concert{
+position: fixed;
+top:55px;               
+left:20px;            
+} 
+
+.concertImg{
+display: none;
+}
+
+.concert:hover .concertImg { 
+display: block; 
+position: fixed;
+right:273px;    
+top:133px;  
+object-fit: contain;
+}
+
+.concertImg2{
+display: none;
+}
+
+.concert:hover .concertImg2 { 
+display: block; 
+position: fixed;
+left:73px;    
+bottom:133px;  
+object-fit: contain;
+}
+
+
+/*PORTRAITS titre index*/
+.portraits{
+position: fixed;
+top:90px;               
+left:20px;            
+} 
+
+.portraitsImg{
+display: none;
+}
+
+.portraits:hover .portraitsImg { 
+display: block; 
+position: fixed;
+right:73px;    
+top:133px;  
+object-fit: contain;
+}
+
+.portraitsImg2{
+display: none;
+}
+
+.portraits:hover .portraitsImg2 { 
+display: block; 
+position: fixed;
+left:273px;    
+bottom:133px;  
+object-fit: contain;
+}
+
+
+/*INVIBLE_WOMAN titre index*/
+.INVIBLE_WOMAN{
+position: fixed;
+top:125px;               
+left:20px;            
+} 
+
+.INVIBLE_WOMANImg{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg { 
+display: block; 
+position: fixed;
+left:13px; 
+bottom:100px;   
+object-fit: contain;
+}
+
+.INVIBLE_WOMANImg2{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg2 { 
+display: block; 
+position: fixed;
+right:213px; 
+top:250px;   
+object-fit: contain;
+}
+
+.INVIBLE_WOMANImg3{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg3 { 
+display: block; 
+position: fixed;
+right:513px; 
+bottom:60px;   
+object-fit: contain;
+}
+
+.INVIBLE_WOMANImg4{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg4 { 
+display: block; 
+position: fixed;
+right:313px; 
+top:40px;   
+object-fit: contain;
+}
+
+.INVIBLE_WOMANImg5{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg5 { 
+display: block; 
+position: fixed;
+left:550px; 
+bottom:710px;   
+object-fit: contain;
+}
+
+
+.INVIBLE_WOMANImg6{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg6 { 
+display: block; 
+position: fixed;
+right:3px; 
+bottom:480px;   
+object-fit: contain;
+}
+
+.INVIBLE_WOMANImg7{
+display: none;
+}
+
+.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg7 { 
+display: block; 
+position: fixed;
+right:403px; 
+top:260px;   
+object-fit: contain;
+}
+
+
+
+/*DE TA LUMIÈRE ÉTEINTE titre index*/
+.lumiere{
+position: fixed;
+top:160px;               
+left:20px;            
+} 
+
+.lumiereImg{
+display: none;
+}
+
+.lumiere:hover .lumiereImg { 
+display: block; 
+position: fixed;
+right:173px;    
+top:233px;  
+object-fit: contain;
+}
+
+.lumiereImg2{
+	display: none;
+	}
+	
+	.lumiere:hover .lumiereImg2 { 
+	display: block; 
+	position: fixed;
+	right:73px;    
+	top:33px;  
+	object-fit: contain;
+	}
+
+
+/*Titres menu*/
+a.bar {
+font-size: 33px;   
+color: black;
+text-decoration: none;
+font-size: 33px;   
+}
+
+a:hover.bar {
+font-style: none;
+font-size: 33px;   
+text-decoration: underline;
+color: black;
+}
+
+/*PAMA titre index*/
+
+.pama{
+position: fixed;
+top:195px;               
+left:20px;            
+} 
+
+.pamaImg{
+display: none;           
+} 
+
+.pama:hover .pamaImg{
+display: block; 
+position: fixed;
+right: 100px;    
+top:333px;  
+object-fit: contain;          
+} 
+
+.pamaImg1{
+display: none;          
+} 
+
+.pama:hover .pamaImg1{
+display: block; 
+position: fixed;
+right: 550px;    
+top:0px;  
+object-fit: contain;          
+} 
+
+.pamaImg2{
+display: none;          
+} 
+
+.pama:hover .pamaImg2{
+display: block; 
+position: fixed;
+left: 550px;    
+bottom:300px;  
+object-fit: contain;          
+} 
+
+
+
+a.img-text {
+text-decoration: underline;
+color: black;
+}
+
+a.img-text:hover {
+text-decoration: underline;
+color: black;
+}
+
+
+
+#conteneur {
+position: fixed;    
+overflow-y: scroll;
+bottom: -5px;
+right:0px;             
+top: 0px;
+width: 60%;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+
+#conteneur-f451 {
+position: fixed;     
+overflow-y: scroll;
+bottom: -5px;
+left:900px;             
+top: 0px;
+width: calc(100%-40px);
+padding-left: 0px;
+padding-right: 0px;
+}
+
+div.elements {
+width:100%;           
+/*height:790px;*/           
+margin-bottom:0px;    
+/*overflow: scroll;*/
+}
+
+#link2 {
+margin-top:0px;    
+}
+
+#link3 {
+margin-top:0px;    
+}
+
+#link4 {
+margin-top:0px;    
+}
+
+#link5 {
+margin-top:0px;    
+}
+
+div.elements img {
+width: 100%; 
+}
+
+div.elements video {
+width: 100%; 
+}
+
+
+
+.elements:last-of-type {
+margin-bottom:0;    
+}
+
+
+
+/* ----------RESPONSIVE BLOC IMAGE---------- */
+
+
+@media screen and (max-width: 1199px) {
+	
+
+	#conteneur {
+	top: 380px;	
+	width: 102%;
+	right: 0px;
+	}
+
+	
+
+	#menu {
+	font-size: 100px;
+	}
+
+	
+
+	.back {
+	font-size: 43px;     
+	font-family: "Cirka_light";
+	width:44%; 
+	top: 325px;
+	left: 537px;
+	bottom: 1750px;
+	text-align: right;
+	color: black;
+	text-decoration: none;
+	}
+
+
+	#link1 {
+		margin-top:0px;     
+		margin-bottom:0px;     
+	}
+
+	#link2 {
+		margin-top:10px;     
+		margin-bottom:0px;     
+	}
+
+	#link3 {
+		margin-bottom:0px;     
+		margin-top:10px;
+	}
+
+	#link4 {
+		margin-bottom:0px;     
+		margin-top:10px;
+	}
+
+	#link5 {
+		margin-bottom:0px;     
+		margin-top:10px;
+	}
+
+	.risoImg{
+	display: none;
+	}
+
+	.risotto:hover .risoImg { 
+	display: none;
+	}
+	
+
+	.risoImg2{
+	display: none;
+	}
+
+	.risotto:hover .risoImg2 { 
+	display: none;
+	}
+
+	.videoImg{
+	display: none;
+	}
+
+	.concert:hover .concertImg { 
+	display: none;
+	}
+
+	.videoImg2{
+	display: none;
+	}
+
+	.concert:hover .concertImg2 { 
+	display: none;
+	}
+
+	.portraitsImg{
+	display: none;
+	}
+
+	.portraits:hover .portraitsImg { 
+	display: none;
+	}
+
+	.portraitsImg2{
+	display: none;
+	}
+
+	.portraits:hover .portraitsImg2 { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg2{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg2 { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg3{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg3 { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg4{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg4 { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg5{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg5 { 
+	display: none;
+	}
+
+	.INVIBLE_WOMANImg6{
+	display: none;
+	}
+
+	.INVIBLE_WOMAN:hover .INVIBLE_WOMANImg6 { 
+	display: none;
+	}
+
+	.baileysImg7{
+	display: none;
+	}
+
+	.baileys:hover .baileysImg7 { 
+	display: none;
+	}
+
+	.lumiereImg{
+	display: none;
+	}
+
+	.lumiere:hover .lumiereImg { 
+	display: none;
+	}
+
+	.pamaImg{
+	display: none;
+	}
+
+	.pama:hover .pamaImg { 
+	display: none;
+	}
+
+	.pamaImg2{
+	display: none;
+	}
+
+	.pama:hover .pamaImg2 { 
+	display: none;
+	}
+
+	.pamaImg1{
+	display: none;
+	}
+
+	.pama:hover .pamaImg1 { 
+	display: none;
+	}
+
+	.horlogeImg{
+	display: none;
+	}
+
+	.p5:hover .horlogeImg { 
+	display: none;
+	}
+
+	.horlogeImg1{
+	display: none;
+	}
+
+	.p5:hover .horlogeImg1 { 
+	display: none;
+	}
+
+
+	.manImg { 
+	display: block; 
+	width: 350px;
+	margin-left: auto;
+
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+	
+
+	#menu {
+		width: 90%;
+				}
+
+}
