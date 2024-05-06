@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "BBB Poppins TN";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/BBBPoppinsTN-TextRegular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BBB Poppins TN";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/BBBPoppinsTN-TextRegular.woff") format("woff2");
+}
+
+
+
+
+
+#text-images {
+  display: flex;
+  margin: 0;
+  font-family: "BBB Poppins TN";
+}
+
+
+#text-images .images {
+  width: 33.33vw;
+  align-self: flex-start;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  padding: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#text-images .images img {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 250ms;
+  max-width: calc(100% - 4em);
+}
+
+#text-images .images img.visible {
+  opacity: 1;
+}
+
+#text-images .text {
+  flex: 1;
+  background: #ffffff;
+  padding: 1.5em;
+  font-size: 4.1vw;
+  line-height: 1.2;
+  margin-left: 33vw;
+  position: relative;
+}
+
+#text-images span[rel] {
+  width: 3em;
+  height: .7em;
+  ;
+  display: inline-block;
+}
+
+#text-images p {
+  margin: 0;
+}
+
+#text-images p+p {
+  text-indent: 1.5em;
+}
+
+#text-images code::after {
+  content: "]";
+}
+
+#text-images a {
+  text-decoration: dotted underline;
+  color: inherit;
+  text-decoration-thickness: .0.8em;
+}
+

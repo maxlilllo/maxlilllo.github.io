@@ -1,0 +1,202 @@
+/* le maxi tuto FLEXBOX : https://ateliers.esad-pyrenees.fr/web/pages/ressources/css/flexbox/*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.parent{
+  padding: 0 0 0 0;
+  display: flex;
+  /*goutière*/
+  gap: 0px;
+  /*orientation*/
+  flex-direction: row;
+  /*colonne*/
+  /* alignement sur l'axe principal (horizontal)*/
+  justify-content: center; /*flex-star, flex-end, space-around, space-between, space-evenly*/
+  /*alignement sur l'axe transversale*/
+  align-items: center; /*flex-start, flex-end, center, baseline, stretch*/
+  /* flex-flow: row wrap; */
+  flex-wrap: wrap;
+  flex:1;
+
+  
+  list-style-type: none; /*retirer puces ds liste*/
+  
+}
+
+
+.enfant {
+  position: relative;
+  flex:1;
+}
+
+.enfant img{ /* traite de toutes les img ds les classes enfant*/
+  width: 20vw;
+  object-fit: cover; /* remplissage de block pa image de manière à prendre tt l'espace sans stretch (zoom)*/
+  vertical-align: bottom;
+  /* position: relative;
+  top: 0;
+  left:0; */
+  
+} 
+
+.static {
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+
+
+/* #section_2{
+  position: absolute;
+  top: 150;
+  left:0;
+} */
+
+.static {
+  z-index: 2; /*que pour position : absolute --> organisation images profondeur plus chiffre haut plus en avant*/
+  transition: opacity 0.2s ease;
+}
+
+.active {
+  z-index: 1; /*que pour position : absolute --> organisation images profondeur plus chiffre haut plus en avant*/
+  
+}
+
+
+
+.static:hover {
+  opacity:0;
+}
+
+/* Grille full alphabet */
+
+@font-face{
+  font-family: "NoLoice";
+  src: url(../font/Noloice.otf);
+}
+
+body {
+  font-family: "NoLoice";
+  font-size: 44pt;
+}
+
+.wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(10, 18px);
+    grid-template-rows: repeat(10, 18px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: blue;
+    padding: 50px;
+     */
+     grid-template-columns: repeat(10, 5vw);
+     grid-template-rows: repeat(6, 4vw);
+     margin: 40px;
+     padding: 25px 0px 0px 15px;
+     column-gap: 10px;
+     row-gap: 30px;
+     place-items:center;
+     justify-content: center;
+     border: 0px solid rgb(0, 0, 0);
+}
+
+.glyphe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : black;
+}
+
+.image {
+  padding: 0px 0px 0px 50px;
+  grid-column-start: 11;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.image img {
+    height:30.55vw;
+    align-items: stretch;
+}
+
+
+#alphabet {
+margin-top : 14vw;
+}
+
+
+/*Pour faire sauter les limites sur le téléphone*/
+@media screen and (max-widh:500px) {
+  .parent {
+      display: block;
+  }
+  .enfant {
+      width: auto;
+  }
+}
+
+/* Grille full alphabet */
+
+
+@media screen and (max-width:876px) {
+
+.image {
+  padding: 30px 0px 0px 70px;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.image img {
+  height: 90vw;
+  align-items: stretch;
+}
+
+.wrapper{
+  justify-content: center;
+}
+
+}
+
+@media screen and (max-width:648px) {
+  body {
+    font-size: 40pt;    
+  }
+  
+.wrapper{
+  margin: 20px
+}
+}
+
+@media screen and (max-width:450px) {
+  body {
+    font-size: 34pt;    
+  }
+
+  .image {
+    padding: 30px 0px 0px 20px;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+}
+
+@media screen and (max-width:366px) {
+  body {
+    font-size: 30pt;    
+  }
+  .wrapper{
+     margin: 10px
+}
+
+}
